@@ -2,8 +2,10 @@
     <div class="container sidebar-sticky">
         <div class="sidebar-about">
           <a title="Home" href="/">
-            <img src="{{ .Site.BaseUrl }}/PDXGOsmall.svg" />
-              <h1 href="/">{{ .Site.Title }}</h1>
+            <div align="center">
+                <img align="center" src="{{ .Site.BaseUrl }}/PDXGOsmall.svg"/>
+                <h1 href="/">{{ .Site.Title }}</h1>
+        </div>
           </a>
         <p class="lead">
 {{ with .Site.Params.Description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
